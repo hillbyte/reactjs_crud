@@ -1,13 +1,124 @@
-body {
+* {
+  box-sizing: border-box;
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  background-color: #efefef;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1em;
+}
+#headerBlock {
+  background-color: indianred;
+  color: #fff;
+  height: 60px;
+}
+#headerBlock nav {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  width: 90%;
+  margin: 0 auto;
+}
+#headerBlock nav div {
+  flex: 1;
+}
+ul li a {
+  text-transform: uppercase;
+
+  color: #fff;
+
+  text-decoration: none;
+  padding: 10px;
+}
+.menuBlock ul {
+  list-style: none;
+  display: flex;
+}
+ul li a:hover {
+  background-color: #623b2e;
+  border-radius: 100px;
+}
+.logoBlock {
+  font-size: 1.3em;
+  font-family: sans-serif;
+
+  text-transform: uppercase;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#employeeBlock {
+  background-color: #fff;
+  margin: 10px auto;
+  padding: 10px;
+  width: 60%;
+}
+#employeeBlock h3 {
+  padding: 14px 0;
+  font-weight: bold;
+  margin: 0px 0 20px 0;
+  border-bottom: 1px solid;
+  text-align: center;
+}
+/* form {
+  display: flex;
+
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+form div {
+  flex-basis: 30%;
+} */
+
+form div label {
+  display: block;
+  padding: 10px 0;
+}
+form div input {
+  width: 100%;
+  padding: 10px;
+  /* border-radius: 1px; */
+}
+button {
+  padding: 8px;
+  background-color: indianred;
+  border-radius: 3px;
+  border: none;
+  margin-top: 10px;
+  color: #fff;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+}
+/* table styling */
+
+table {
+  width: 60%;
+  background: #fff;
+  margin: 30px auto;
+  border: 1px solid #ccc;
+}
+
+thead {
+  background-color: indianred;
+  padding: 10px;
+  color: #fff;
+}
+tr,
+td {
+  border: solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+.head {
+  text-align: center;
+  margin-top: 5px;
 }

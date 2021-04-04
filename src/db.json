@@ -1,0 +1,11 @@
+{
+  "employees": [
+    {
+      "emp_photo": "http://placeimg.com/640/480/nature",
+      "emp_name": "Abdulla Hill Baky",
+      "emp_education": "NULL",
+      "emp_designation": "SE",
+      "id": 1
+    }
+  ]
+}
